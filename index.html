@@ -14,24 +14,38 @@
 
 			h2 {
 				width: 100%;
-				text-align: left;
+				text-align: center;
+
 			}
 
 			td {
-				width: 60%;
+				width: 50%;
+				font-size:20px;
 			}
+
+    		li{
+    			display: inline;
+    		}
 
     		.uppermost {
     			width: 100%;
     			background-color:red;
-    			height: 150px;
+    			height: 100px;
+    			text-align: left;
+    			position:relative;
     		}
+
+    		.uppermostFirstTd {
+				width: 20%;
+			}
 
             .lowest {
     			width: 100%;
     			background-color:red;
     			height: 50px;
     			text-align: center;
+    			font-size:20px;
+
     		}
 
     		.titleline {
@@ -41,29 +55,35 @@
     		}
 
             .textAlign {
-				text-align: right;
-				font-size:30px;
+            	width: 100%;
+				text-align: left;
+				font-size:15px;
 				left:10px;
             }
 
-    		.myimages {
-    			width: 550px;
-    			height: 350px;
+    		.myimages img {
+    			width: 100%;
+    			height: 500px;
     		}
 
+    		
 
-			.positioning {top:151px;height:27px;width:100%;font-size:13px;line-height:15px}
+
+			.positioning {
+				top:151px;
+				height:27px;
+				width:100%;
+				font-size:13px;
+				line-height:15px;
+				right:10;
+				height:50px;
+				background-color:grey
+			}
 
 			.positioning a{font-weight:normal;text-decoration:none}
 
  			.positioning li{float:left;display:inline;padding:6px 10px 6px 18px}
  			
- 			.positioning {right:10;height:50px;background-color:grey;}
-
-
-    		li{
-    			display: inline;
-    		}
 	</style>
 </head>
 <body>
@@ -72,12 +92,15 @@
 	<div class="uppermost"> 
 		<table>
 			<tr>
-				<td>
+				<td class="uppermostFirstTd">
 					<img  src="imgCR/codefactory.gif.png" width="180" height="90">
 				</td>
 				<td class="textAlign">
-				
-					Hadasa Geiger Future Full Stack Web Developer
+				<h2>
+					 Hadasa Geiger - Future Full Stack Web Developer 
+				</h2> 
+
+					
 					
 				</td>
 			</tr>
@@ -93,53 +116,41 @@
 			<li><font size="5"><a href="https://www.google.at"> Contact <a/></font></li>
 		</ul>
 	</div>
-
-		 <table>
-		 	<tr>
-		 		<td>
-		 			<img class="myimages" src="imgCR/students.gif.jpg">
-		 		</td>
-		 		<td>
-		 			<img class="myimages" src="imgCR/electronic.gif.jpg">
-		 		</td>
-		 	</tr>
-
-		 	<style type="text/css">
-		 		{  font-size: 80px;
-
-		 		}	
-
-
-
-		 	</style>
-		 	<tr>
-		 		<td><font size="5"> Social Spot for Developers</font> 
-		 			
-		 		</td>
-		 		<td><font size="5">Land in sight Guest Code Factory</font>
-		 			
-		 		</td>
-		 	</tr>
-		 	<tr>
-		 		<td>
-		 			<img class="myimages" src="imgCR/blue.gif.jpg"></td>
-		 		<td>
-		 			<img class="myimages" src="imgCR/childre.gif.jpg">
-		 		</td>
-		 	</tr>
-		 	<tr>
-		 		<td> <font size="5"> By Profession :" Code Monkey"</font>
-		 			
-		 		</td>
-		 		<td><font size="5">EU CodeWeek :"Programmieren genauso wichtig wie Latein"</font>
-		 			
-		 		</td>
-		 	</tr>
-		 </table>
+     
+	<table class="myimages">
+		 <tr>
+		 	<td>
+		 		<img src="imgCR/students.gif.jpg">
+		 	</td>
+		 	<td>
+		 		<img src="imgCR/electronic.gif.jpg">
+		 	</td>
+		 </tr>
+		<tr>
+	 		<td> Social Spot for Developers
+	 		</td>
+	 		<td>Land in sight Guest Code Factor
+	 		</td>
+		 </tr>
+		 <tr>
+		 	<td>
+		 		<img class="myimages" src="imgCR/blue.gif.jpg"></td>
+		 	<td>
+		 		<img class="myimages" src="imgCR/childre.gif.jpg">
+		 	</td>
+		 </tr>
+		 <tr>
+		 	<td> By Profession: &quot;Code Monkey&quot;
+		 	</td>
+		 	<td>EU CodeWeek: &quot;Programmieren genauso wichtig wie Latein&quot;
+		 	</td>
+		 </tr>
+	</table>
+		
 		 
-		 
-
+	<br>
 	<div class="lowest"> 
+		<br>
 		Hadasa Geiger - Codefactory
 	</div>	
 	
